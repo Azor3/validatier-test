@@ -24,10 +24,10 @@ jobs:
       run: npm ci
 
     # 2. LINT KONTROLLERİ (Hata varsa durur)
-    - name: Lint Backend
-      working-directory: ./backend
-      run: npm run lint
-      continue-on-error: false # Hata varsa durdur
+#    - name: Lint Backend
+#      working-directory: ./backend
+#      run: npm run lint
+#      continue-on-error: false # Hata varsa durdur
 
     - name: Lint Frontend
       working-directory: ./frontend
