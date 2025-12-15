@@ -41,7 +41,7 @@ jobs:
       env:
         # Sol taraf kodunun beklediği değişken adı (.env içindekiyle aynı olmalı)
         # Sağ taraf GitHub'a kaydettiğin Secret adı
-        MONGODB_URI: ${{ secrets.MONGO_URI }}
+        MONGO_URI: ${{ secrets.MONGO_URI }}
         TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     - name: Build Frontend
@@ -50,7 +50,7 @@ jobs:
       env:
         # Sol taraf kodunun beklediği değişken adı (.env içindekiyle aynı olmalı)
         # Sağ taraf GitHub'a kaydettiğin Secret adı
-        MONGODB_URI: ${{ secrets.MONGO_URI }}
+        MONGO_URI: ${{ secrets.MONGO_URI }}
         TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     # 4. DEPLOY (Dosyaları Taşıma)
