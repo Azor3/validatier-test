@@ -30,7 +30,7 @@ jobs:
 #      continue-on-error: false # Hata varsa durdur
 
 ###    - name: Lint Frontend 
-#      working-directory: ./frontend
+##      working-directory: ./frontend
 #      run: npm run lint
 #      continue-on-error: false
 
